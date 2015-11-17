@@ -353,7 +353,6 @@
     
     
     ZHButton *button = (ZHButton *)sender;
-    NSLog(@"^^^^->%d->%d->%d->%d",self.maxSelectCount,_mutableSelectTagNamesArray.count,!button.isTagSelect,self.isSupportMutableSelect);
     if (!self.tagButtonUserInteractionEnabled) {
         return;
     }
